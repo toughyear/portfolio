@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/meteor-solid.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ============start header area ================== -->
+    <div class=" nav-section">
+      <nav
+        id="navbar-example2"
+        class="navbar navbar-expand-md navbar-dark  fixed-top  "
+        style="background-color: #0d0d0d;"
+      >
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse  navbar-collapse   " id="navbarsExampleDefault">
+          <ul class="navbar-nav ml-auto pr-5 ">
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-3 ">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ============end header area ================== -->
+
+    <!-- landing name page starts -->
+    <div
+      class="main"
+      data-spy="scroll"
+      data-target="#navbar-example2"
+      data-offset="0"
+    >
+      <section class="sections" id="home">
+        <div style="padding-top: 20%;">
+          <h1 class="display-1 main-text">
+            Hi there! I'm <span class="jobs">Rajeev</span>
+          </h1>
+        </div>
+      </section>
+
+      <!-- landing name page ends-->
+      <!-- scroll down system -->
+
+      <section class="sections" id="projects">
+        <div class="jumbotron">
+          <h1 class="display-4">My Projects</h1>
+          <p class="lead">
+            I believe projects are the best way to learn. These are some
+            projects I built.
+          </p>
+          <hr class="my-1" />
+
+          <div class="container content-row ">
+            <div class="card-group row-cols-1 row-cols-md-2 ">
+              <div class="card ">
+                <img
+                  src="./img/react-chat-app.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">React Chat App</h5>
+                  <p class="card-text">
+                    Built a web-based real-time chat app. Built with react.js
+                    using socket.io and node.js. Database stored on Firebase and
+                    Site hosted on Heroku.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">
+                      <span class="btn-sm btn-dark">react.js</span>
+                      <span class="btn-sm btn-dark">node.js</span>
+                      <span class="btn-sm btn-dark">html, css, js</span>
+                    </small>
+                  </p>
+
+                  <a href="#" class="btn btn-primary stretched-link"
+                    >Live Demo</a
+                  >
+                  <a href="#" class="btn btn-secondary stretched-link"
+                    >Github</a
+                  >
+                </div>
+              </div>
+              <div class="card ">
+                <img
+                  src="./img/fps-game.jpg"
+                  class="card-img-top my-lg-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">3D FPS game</h5>
+                  <p class="card-text mb-5 pb-2">
+                    Made a 3D First Person Shooter game in Unity Game engine. It
+                    was scripted in c#.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">
+                      <span class="btn-sm btn-dark">Unity-Engine</span>
+                      <span class="btn-sm btn-dark">Blender, Cinema4D</span>
+                      <span class="btn-sm btn-dark">C#</span></small
+                    >
+                  </p>
+
+                  <a href="#" class="btn btn-primary stretched-link"
+                    >Download and Play</a
+                  >
+                  <a href="#" class="btn btn-secondary stretched-link"
+                    >Github</a
+                  >
+                </div>
+              </div>
+              <div class="card ">
+                <img
+                  src="./img/paper-simulation.PNG"
+                  class="card-img-top py-5"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Simulation of evolution and ecosystem
+                  </h5>
+                  <p class="card-text">
+                    Co-authoring a paper on "Simulating Virtual Ecosystem using
+                    Genetic Algorithm in Unity Engine" using Unity 3D game
+                    engine for simulation and C# for scripting.
+                  </p>
+                  <a href="#" class="btn btn-primary stretched-link"
+                    >Read Abstract</a
+                  >
+                  <a href="#" class="btn btn-secondary stretched-link"
+                    >Source</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sections" id="blog">
+        <div class="jumbotron jumbotron-fluid" >
+          <div class="container">
+            <h1 class="display-4">Blog</h1>
+            <p class="lead">
+              Writings, Experiments and Me
+            </p>
+            <hr />
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title.</h4>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer..
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This card has supporting text below as a natural lead-in
+                        to additional content.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix hidden-sm-down hidden-lg-up"></div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck ">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sections" id="about-me">
+         <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Blog</h1>
+            <p class="lead">
+              Writings, Experiments and Me
+            </p>
+            <hr />
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title.</h4>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer..
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This card has supporting text below as a natural lead-in
+                        to additional content.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix hidden-sm-down hidden-lg-up"></div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck ">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="http://placehold.it/250x150"
+                      alt="Card image cap"
+                    />
+                    <div class="card-block">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                    
+                    </div>
+                    <hr>
+                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Jquery -->
+    <script src="./js/jquery.3.4.1.js"></script>
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  background: #0d0d0d;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scroll-snap-type: y proximity;
+  -ms-overflow-style: none;
+}
+
+.carousel-inner h5,
+p {
+  color: black;
+}
+.card {
+  margin-right: 2em;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main::-webkit-scrollbar {
+  display: none;
+}
+.sections {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+#blog {
+  height: max-content;
+}
+.main-text {
+  color: white;
+  font-size: 4rem;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 10%;
+  animation: fadein 4s;
+  animation-timing-function: ease-in;
+  -moz-animation: fadein 4s; /* Firefox */
+  -webkit-animation: fadein 4s; /* Safari and Chrome */
+  -o-animation: fadein 4s; /* Opera */
+}
+
+.jobs {
+  color: white;
+  font-size: 4rem;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  animation: fadein 4s;
+  animation-timing-function: ease-in;
+  -moz-animation: fadein 4s; /* Firefox */
+  -webkit-animation: fadein 4s; /* Safari and Chrome */
+  -o-animation: fadein 4s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
