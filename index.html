@@ -7,9 +7,14 @@
     <title>My portfolio</title>
     <link rel="shortcut icon" type="image/png" href="img/meteor-solid.png" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!-- font awesome icons -->
-    <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- font awesome CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- ============start header area ================== -->
@@ -19,7 +24,7 @@
         class="navbar navbar-expand-md navbar-dark  fixed-top  "
         style="background-color: #0d0d0d;"
       >
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand" href="./index.html">My Portfolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -76,9 +81,10 @@
             projects I built.
           </p>
           <hr class="my-1" />
-
-          <div class="container content-row ">
-            <div class="card-group row-cols-1 row-cols-md-2 ">
+          <div
+            class="d-flex flex-column flex-md-row flex-wrap justify-content-around"
+          >
+            <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="card ">
                 <img
                   src="./img/react-chat-app.jpg"
@@ -108,6 +114,8 @@
                   >
                 </div>
               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="card ">
                 <img
                   src="./img/fps-game.jpg"
@@ -136,6 +144,8 @@
                   >
                 </div>
               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="card ">
                 <img
                   src="./img/paper-simulation.PNG"
@@ -160,249 +170,231 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card ">
+                <img
+                  src="./img/react-chat-app.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">React Chat App</h5>
+                  <p class="card-text">
+                    Built a web-based real-time chat app. Built with react.js
+                    using socket.io and node.js. Database stored on Firebase and
+                    Site hosted on Heroku.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">
+                      <span class="btn-sm btn-dark">react.js</span>
+                      <span class="btn-sm btn-dark">node.js</span>
+                      <span class="btn-sm btn-dark">html, css, js</span>
+                    </small>
+                  </p>
+
+                  <a href="#" class="btn btn-primary stretched-link"
+                    >Live Demo</a
+                  >
+                  <a href="#" class="btn btn-secondary stretched-link"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="sections" id="blog">
-        <div class="jumbotron jumbotron-fluid" >
-          <div class="container">
-            <h1 class="display-4">Blog</h1>
-            <p class="lead">
-              Writings, Experiments and Me
-            </p>
-            <hr />
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title.</h4>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer..
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
+        <div class="jumbotron bg-dark ">
+          <h1 class="display-4">Blog</h1>
+          <p class="lead">Writings, Experiments and Me</p>
+          <hr class="my-2 mb-4" />
+          <div
+            class="d-flex flex-column flex-md-row flex-wrap justify-content-around "
+          >
+            <div class=" card col-lg-3 col-md-4 col-sm-12 mb-4">
+              <div>
+                <img
+                  class="card-img-top"
+                  src="http://picsum.photos/650/400"
+                  alt="Card image cap"
+                />
+                <div class="card-block">
+                  <h4 class="card-title">Making my first Movie</h4>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This card has supporting text below as a natural lead-in
-                        to additional content.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
+                <hr />
+                <small class="text-muted pl-3">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class=" card col-lg-3 col-md-4 col-sm-12 mb-4">
+              <div>
+                <img
+                  class="card-img-top"
+                  src="http://picsum.photos/650/400"
+                  alt="Card image cap"
+                />
+                <div class="card-block">
+                  <h4 class="card-title">Making my first Movie</h4>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.This is a longer card with supporting text
+                    below as a natural lead-in to additional content. This
+                    content is a little bit longer.
+                  </p>
                 </div>
-                <!-- Add the extra clearfix for only the required viewport -->
-                <div class="clearfix hidden-sm-down hidden-lg-up"></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck ">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
+                <hr id="cardhr" />
+                <small class="text-muted pl-3">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class=" card col-lg-3 col-md-4 col-sm-12 mb-4">
+              <div>
+                <img
+                  class="card-img-top"
+                  src="http://picsum.photos/650/400"
+                  alt="Card image cap"
+                />
+                <div class="card-block">
+                  <h4 class="card-title">Making my first Movie</h4>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
+                <hr />
+                <small class="text-muted pl-3">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class=" card col-lg-3 col-md-4 col-sm-12 mb-4">
+              <div>
+                <img
+                  class="card-img-top"
+                  src="http://picsum.photos/650/400"
+                  alt="Card image cap"
+                />
+                <div class="card-block">
+                  <h4 class="card-title">Making my first Movie</h4>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
+                <hr />
+                <small class="text-muted pl-3">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class=" card col-lg-3 col-md-4 col-sm-12 mb-4">
+              <div>
+                <img
+                  class="card-img-top"
+                  src="http://picsum.photos/650/400"
+                  alt="Card image cap"
+                />
+                <div class="card-block">
+                  <h4 class="card-title">Making my first Movie</h4>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
+                <hr />
+                <small class="text-muted pl-3">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class=" card col-lg-3 col-md-4 col-sm-12 mb-4">
+              <div>
+                <img
+                  class="card-img-top"
+                  src="http://picsum.photos/650/400"
+                  alt="Card image cap"
+                />
+                <div class="card-block">
+                  <h4 class="card-title">Making my first Movie</h4>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+                <hr />
+                <small class="text-muted pl-3">Last updated 3 mins ago</small>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="sections" id="about-me">
-         <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h1 class="display-4">Blog</h1>
-            <p class="lead">
-              Writings, Experiments and Me
-            </p>
-            <hr />
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title.</h4>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer..
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This card has supporting text below as a natural lead-in
-                        to additional content.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <!-- Add the extra clearfix for only the required viewport -->
-                <div class="clearfix hidden-sm-down hidden-lg-up"></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck ">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 card-deck">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="http://placehold.it/250x150"
-                      alt="Card image cap"
-                    />
-                    <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
-                      </p>
-                    
-                    </div>
-                    <hr>
-                    <small class="text-muted pl-3">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+      <section class="sections" id="about-me"></section>
+
+      <footer class="site-footer">
+        <div class="container">
+          <hr />
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify" style="color: gray;">
+                Made with <i class="fa fa-heart"></i> using HTML, CSS,
+                Javascript, Bootstrap and Fontawesome.
+              </p>
+            </div>
+            <div
+              class="d-flex align-items-start flex-column col-sm-12 col-md-6"
+            >
+              <h6 class="ml-md-5 ml-sm-0">Connect</h6>
+              <div>
+                <ul class="social-icons ">
+                  <li>
+                    <a
+                      class="linkedin"
+                      href="https://www.linkedin.com/in/rajeevsinghnaruka/"
+                      ><i class="fa fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="github" href="https://github.com/toughyear"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a class="codepen" href="https://codepen.io/toughyear"
+                      ><i class="fa fa-codepen"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="behance" href="https://www.behance.net/toughyear"
+                      ><i class="fa fa-behance"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="codeforces"
+                      href="https://codeforces.com/profile/toughyear"
+                      ><i class="fa fa-code"></i
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a class="twitter" href="https://twitter.com/RajeevSinghN"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
+          <hr />
         </div>
-      </section>
+      </footer>
     </div>
 
     <!-- Jquery -->
