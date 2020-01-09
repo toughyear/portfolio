@@ -71,6 +71,13 @@ p {
   -o-animation: fadein 4s; /* Opera */
 }
 
+@media screen and (max-width: 400px) {
+  #home h1 {
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+}
+
 #blog p {
   color: black;
 }
