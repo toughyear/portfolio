@@ -38,8 +38,15 @@ p {
   height: max-content;
 }
 
+#projects .jumbotron {
+  background-color: #ffffff;
+}
 #blog .jumbotron {
   background-color: #0d0d0d !important;
+}
+
+#blog .lead {
+  color: white;
 }
 
 #blog h1 {
