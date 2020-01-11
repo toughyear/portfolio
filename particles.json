@@ -1,0 +1,27 @@
+{
+  "particles": {
+    "number": {
+      "value": 300,
+      "density": {
+        "enable": true,
+        "value_area": 1000
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "opacity": {
+      "value": 0.75,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 3,
+        "opacity_min": 0.25
+      }
+    },
+    "size": {
+      "value": 8,
+      "random": true
+    }
+  }
+}

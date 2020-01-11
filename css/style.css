@@ -33,7 +33,7 @@ body {
 }
 .wolf-path {
   fill: transparent;
-  stroke: white;
+  stroke: red;
   stroke-width: 15;
   stroke-dasharray: 25000px;
   stroke-dashoffset: 25000px;
@@ -50,7 +50,7 @@ body {
   }
 
   50% {
-    stroke-width: 30;
+    stroke-width: 25;
   }
 
   to {
@@ -128,6 +128,12 @@ p {
     margin-top: 20%;
     margin-left: 10%;
   }
+
+  #links {
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: auto;
+  }
 }
 
 #blog p {
@@ -183,8 +189,19 @@ p {
   }
 }
 
+#links {
+  position: absolute;
+  margin-top: 50vh;
+  margin-left: 20vw;
+}
+
+#particles-js {
+  background: #0d0d0d;
+  height: inherit;
+}
+
 .site-footer {
-  background-color: #000000;
+  background-color: #0d0d0d;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
