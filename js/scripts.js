@@ -13,7 +13,7 @@ function onTick() {
   if (n === 4) {
     text.innerHTML = ' Hi there! I\'m <span class="jobs" ">Rajeev.</span>';
 
-    n = 5;
+    n = 1;
     return;
   } else if (n == 1) {
     text.innerHTML = ' Hi there! I\'m <span class="jobs">a Developer.</span>';
