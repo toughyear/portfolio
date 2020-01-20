@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Pacifico|Roboto|Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Poppins&display=swap");
 
 body {
   background: #0d0d0d;
@@ -6,7 +6,9 @@ body {
 }
 
 .navbar-brand {
-  font-family: Pacifico;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
 }
 
 .main {
