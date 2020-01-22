@@ -43,3 +43,22 @@ $(window).on("load", function() {
     .delay(4000)
     .fadeIn("slow");
 });
+
+// to prevent full render of name on small devices
+
+const name = document.querySelector(".navbar-brand");
+
+$(document).ready(function() {
+  if ($(window).width() < 400) {
+    name.innerHTML = "RAJEEV NARUKA";
+  } else {
+    name.innerHTML = "RAJEEV SINGH NARUKA";
+  }
+});
+$(window).resize(function() {
+  if ($(window).width() < 400) {
+    name.innerHTML = "RAJEEV NARUKA";
+  } else {
+    name.innerHTML = "RAJEEV SINGH NARUKA";
+  }
+});
